@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="specInfoViewModel"
+            type="itcv.vn.dialogfragment.specinfo.SpecInfoDialogViewModel" />
+        <variable
+            name="handlers"
+            type="itcv.vn.dialogfragment.DialogHandlers" />
+        <import type="android.text.TextUtils" />
+    </data>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="20dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên thông tin"
+        android:text="@={specInfoViewModel.title}"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vị trí"
+        android:text="@={specInfoViewModel.location}"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Thời gian bắt đầu"
+        android:text="@={specInfoViewModel.durationStart}"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Thời gian kết thúc"
+        android:text="@={specInfoViewModel.durationEnd}"/>
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nội dung thông tin"
+        android:text="@={specInfoViewModel.description}"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layoutDirection="rtl">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="10dp"
+            android:gravity="center"
+
+            android:text="Hủy"
+            android:onClick="@{(v) -> handlers.onCancelClick(v)}"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+
+            android:layout_weight="1"
+            android:gravity="center"
+            android:enabled="@{!(TextUtils.isEmpty(specInfoViewModel.title) || TextUtils.isEmpty(specInfoViewModel.description) )}"
+            android:onClick="@{(v) -> handlers.onCompleteClick(v)}"
+            android:text="Tạo"/>
+
+    </LinearLayout>
+</LinearLayout>
+</layout>

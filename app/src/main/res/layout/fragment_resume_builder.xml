@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="profileViewModel"
+            type="itcv.vn.ProfileViewModel" />
+        <variable
+            name="handlers"
+            type="itcv.vn.MyHandlers" />
+    </data>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        android:onClick="@{(v) -> handlers.onImageClick(v)}"
+        android:src="@{profileViewModel.drawable}"
+        app:shapeAppearanceOverlay="@style/circle"
+        android:id="@+id/profilepicture"
+        ></com.google.android.material.imageview.ShapeableImageView>
+
+        <EditText
+            android:minWidth="160dp"
+            android:padding="4dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginVertical="10dp"
+            android:singleLine="true"
+
+            android:gravity="center"
+            android:hint="Tên"
+            android:background="@null"
+
+            android:text="@={profileViewModel.name}"
+            ></EditText>
+    <EditText
+        android:minWidth="160dp"
+        android:layout_width="wrap_content"
+        android:padding="4dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:singleLine="true"
+
+        android:hint="Vị trí"
+        android:text="@={profileViewModel.position}"
+        android:background="@null"
+        android:layout_marginBottom="10dp"
+
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textfield_roundedcorner"
+        android:layout_marginVertical="8dp"
+        android:singleLine="true"
+
+        android:padding="8dp"
+        android:drawableLeft="@drawable/icon_address"
+        android:drawablePadding="4dp"
+        android:hint="Địa chỉ"
+        android:text="@={profileViewModel.address}"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textfield_roundedcorner"
+        android:padding="8dp"
+        android:layout_marginVertical="8dp"
+        android:singleLine="true"
+
+        android:drawableLeft="@drawable/icon_email"
+        android:drawablePadding="4dp"
+        android:hint="Email"
+        android:text="@={profileViewModel.email}"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textfield_roundedcorner"
+        android:layout_marginVertical="8dp"
+        android:padding="8dp"
+        android:singleLine="true"
+
+        android:drawableLeft="@drawable/icon_phone"
+        android:drawablePadding="4dp"
+        android:hint="Số điện thoại"
+        android:text="@={profileViewModel.phone}"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textfield_roundedcorner"
+        android:layout_marginVertical="8dp"
+        android:padding="8dp"
+        android:singleLine="true"
+
+        android:drawableLeft="@drawable/icon_dob"
+        android:drawablePadding="4dp"
+        android:text="@={profileViewModel.date}"
+
+        android:hint="Ngày sinh"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mục tiêu nghề nghiep"
+        android:paddingVertical="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="top"
+        android:singleLine="true"
+        android:padding="5dp"
+        android:background="@drawable/textfield_roundedcorner"
+        android:text="@={profileViewModel.description}"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kỹ năng"
+            android:textSize="20dp"
+
+            android:layout_alignParentLeft="true"></TextView>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:id="@+id/addSkill"
+            android:onClick="@{(v) -> handlers.onGenInfoButtonClick(v)}"
+            android:src="@drawable/icon_plus" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listskill">
+    </androidx.recyclerview.widget.RecyclerView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thành tựu"
+            android:textSize="20dp"
+            android:layout_alignParentLeft="true"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_plus"
+            android:background="@null"
+            android:id="@+id/addAchievement"
+            android:onClick="@{(v) -> handlers.onGenInfoButtonClick(v)}"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listachievement">
+        </androidx.recyclerview.widget.RecyclerView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sở thích"
+            android:textSize="20dp"
+            android:layout_alignParentLeft="true"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_plus"
+            android:background="@null"
+            android:id="@+id/addHobby"
+            android:onClick="@{(v) -> handlers.onGenInfoButtonClick(v)}"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listhobby">
+        </androidx.recyclerview.widget.RecyclerView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Học vấn"
+            android:textSize="20dp"
+            android:layout_alignParentLeft="true"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_plus"
+            android:background="@null"
+            android:id="@+id/addEducation"
+            android:onClick="@{(v) -> handlers.onSpecInfoButtonClick(v)}"
+
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listeducation">
+        </androidx.recyclerview.widget.RecyclerView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kinh nghiệm"
+            android:textSize="20dp"
+            android:layout_alignParentLeft="true"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_plus"
+            android:background="@null"
+            android:id="@+id/addExperience"
+            android:onClick="@{(v) -> handlers.onSpecInfoButtonClick(v)}"
+
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listexperience">
+        </androidx.recyclerview.widget.RecyclerView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hoạt động"
+            android:textSize="20dp"
+            android:layout_alignParentLeft="true"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_plus"
+            android:background="@null"
+            android:id="@+id/addActivity"
+
+            android:onClick="@{(v) -> handlers.onSpecInfoButtonClick(v)}"
+
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listactivity">
+        </androidx.recyclerview.widget.RecyclerView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create profile"
+        android:onClick="@{(v) -> handlers.onCompleteClick(v)}" />
+    </LinearLayout>
+
+</ScrollView>
+</layout>

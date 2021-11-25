@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_email.xml.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\drawable\\icon_email.xml"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_specinfo.xml.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\layout\\item_specinfo.xml"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_specinfo.xml.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\layout\\dialog_specinfo.xml"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_geninfo.xml.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\layout\\dialog_geninfo.xml"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_icon_blank_user.png.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\drawable-v24\\icon_blank_user.png"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_geninfo.xml.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\layout\\item_geninfo.xml"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_address.xml.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\drawable\\icon_address.xml"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_dob.xml.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\drawable\\icon_dob.xml"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_subtract.xml.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\drawable\\icon_subtract.xml"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_plus.xml.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\drawable\\icon_plus.xml"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\drawable_textfield_roundedcorner.xml.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\drawable\\textfield_roundedcorner.xml"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_phone.xml.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\drawable\\icon_phone.xml"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_resume_builder.xml.flat",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\layout\\fragment_resume_builder.xml"
+    }
+]

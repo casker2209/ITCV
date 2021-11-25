@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_geninfo.xml",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\layout\\dialog_geninfo.xml"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_geninfo.xml",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\layout\\item_geninfo.xml"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_specinfo.xml",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\layout\\item_specinfo.xml"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_resume_builder.xml",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\layout\\fragment_resume_builder.xml"
+    },
+    {
+        "merged": "E:\\ITSOLIntern\\ITCV\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_specinfo.xml",
+        "source": "E:\\ITSOLIntern\\ITCV\\app\\src\\main\\res\\layout\\dialog_specinfo.xml"
+    }
+]
